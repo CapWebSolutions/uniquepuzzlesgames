@@ -1,0 +1,265 @@
+/* Logo to the left of the default Site Title and Description
+-------------------------------------------------------------- */
+
+.title-area,
+.site-header .widget-area,
+.site-header .search-form {
+	width: auto;
+}
+
+.title-area {
+	margin-left: 0px;
+}
+
+.site-logo {
+	float: left;
+	margin-right: 10px;
+}
+
+.site-title {
+	font-size: 30px;
+}
+
+.site-title-description {
+	float: left;
+	margin-top: 40px;
+}
+.nav-primary {
+	margin-top: 33px;
+}
+
+.nav-primary .genesis-nav-menu>li>a {
+	margin-left: 30px !important;
+}
+
+/* Site Footer
+ * ========================================================================== */
+
+.site-footer {
+	padding: 40px 0;
+	background: #333;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
+
+.site-footer a {
+	color: #fff;
+	opacity: .5;
+}
+
+.site-footer a:hover {
+	opacity: 1;
+}
+
+.site-footer p {
+	margin-bottom: 0;
+}
+
+/* Custom stuff for UPG WooCommerce*/
+.woocommerce span.onsale,
+.woocommerce-page span.onsale {
+  background-color: red !important;
+}
+
+
+/* Align the Add To Cart Buttons */
+.content-sidebar-wrap #genesis-content a.add_to_cart_button { 
+    bottom: 0; 
+    position: absolute; 
+    display: block; 
+    bottom: 0px;
+}
+
+.content-sidebar-wrap #genesis-content ul.products li.product, 
+.content-sidebar-wrap #genesis-content ul.products li.product { 
+    min-height: 415px !important; 
+    margin-bottom:10px; 
+
+}
+
+.content-sidebar-wrap #genesis-content a.button.product_type_simple,
+.content-sidebar-wrap #genesis-content a.button.product_type_simple.ajax_add_to_cart,
+.content-sidebar-wrap #genesis-content a.button.product_type_variable.add_to_cart_button,
+.content-sidebar-wrap #genesis-content a.button.product_type_simple.add_to_cart_button {
+    bottom: 10px; 
+    position: absolute;
+
+}
+
+/* Remove add to cart from WooCommerce shortcode display on front page widget areas. */
+.flexible-widgets a.button.product_type_simple,
+.flexible-widgets a.button.product_type_simple.ajax_add_to_cart,
+.flexible-widgets a.button.product_type_variable.add_to_cart_button,
+.flexible-widgets a.button.product_type_simple.add_to_cart_button {
+    display: none !important;
+}
+
+/*	Give the checkout table enough room to display all the shipping options */
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: right;
+    width: 75% !important;
+}
+
+ul#shipping_method {
+	line-height: 1.2;
+}
+
+/* Popup form through MailChimp for WordPress PI */
+#popmake-989 .mc4wp-form-991 > div.mc4wp-form-fields > p:nth-child(1) {
+	text-align: center;
+}
+
+#popmake-989 .mc4wp-form-991 > div.mc4wp-form-fields > p:nth-child(1) > label {
+	font-size: 32px;
+	line-height: 36px;
+}
+
+
+/*	Style Customizations */
+.page-header {
+    padding: 2% 0;
+}
+.footer-background {
+	background-size: 100%;
+}
+
+.front-highlight-right {
+	border-right: 1px solid #999;
+	padding-right: 2px;
+}
+.front-highlight-left {
+	border-left: 1px solid #999;
+	padding-left: 2px;
+}
+
+#front-page-intro > div > div > #text-30 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.intro-headline {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1em;
+	padding-bottom: 5px;
+	letter-spacing: 4px;
+}
+.intro-content {
+		font-size: 20px;
+		font-weight: 400;
+		text-align: center;
+		line-height: 1em;
+}
+
+.site-footer a {
+	text-decoration: none;
+	opacity: 1 !important;
+}
+
+.flexible-widgets .widget {
+    margin-bottom: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+.bg-primary, .bg-secondary, .bg-primary a, .bg-secondary a {
+    color: #EBBB5B;
+}
+
+.nav-primary .genesis-nav-menu a {
+	font-size: 18px !important;
+	font-weight: 700;
+
+}
+
+#menu-primary {
+	background-color: #4C6078;
+}
+
+.fuller-width-content img.pull {
+	margin-left: -70px;
+	margin-right: -70px;
+	max-width: 1024px;
+}
+
+.fuller-width-content .content-sidebar-wrap {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+#floatingcart {
+position: fixed;
+left: 6px;
+top: 400px;
+width: 100px;
+height:80px;
+z-index:9999;
+transform: rotate(270deg);
+transform-origin: left top 0;
+float: left;
+
+}
+#floatingcart a {
+  font-family: Arial;
+  color: #fed77f;
+  font-size: 14px;
+  background: #5a6f89;
+  padding: 10px 15px 10px 15px;
+	border-radius: 25px;
+  text-decoration: none;
+}
+
+#floatingcart a:hover {
+  background: #a5bdd9;
+  text-decoration: none;
+}
+
+.widgettitle {
+	font-size: 20px;
+}
+
+.footer-widgets .widgettitle {
+    margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+
+	.title-area,
+	.site-header .widget-area {
+		float: none;
+	}
+
+	.title-area {
+		overflow: hidden;
+	}
+
+	.title-area > * {
+		float: none;
+		display: inline-block;
+	}
+
+	.site-header .widget-area {
+		text-align: center;
+		width: 100%;
+	}
+
+	.site-header .search-form {
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 430px) {
+
+	.site-header .search-form {
+		width: auto;
+	}
+
+}
+
+
